@@ -13,7 +13,7 @@ span ,i{
     }
     p,h1,h4,h2{
         text-transform: capitalize;
-
+font-size: 70px;
     }
     a:hover{
         text-decoration: none;
@@ -103,7 +103,7 @@ span ,i{
     
     .header-sec-contain  h1,.defintion-sec h1{
         text-transform: capitalize;
-        font-size: 60px;
+        /* font-size: 60px; */
         font-weight: bold;
         font-family: tahoma;
         padding: 100px 0;
@@ -136,7 +136,7 @@ span ,i{
     .defintion-sec h1,.enough-hover h1,.enough-hover-header,.fixed-sec-item h1,.cover-sec h1{
        color: #171717;
         padding: 100px 0;
-        font-size: 80px;
+        /* font-size: 80px; */
     }
     .defintion-sec-item{
         background-color: #fff;
@@ -218,7 +218,7 @@ span ,i{
      }
      .enough-hover h1{
         color: #fff;
-        font-size: 80px;
+        /* font-size: 80px; */
         margin-left: 200px;
         text-align: center;
 
@@ -360,7 +360,7 @@ background-attachment: fixed
 }
 .cover-sec h1{
     color: #fff;
-font-size: 60px;
+/* font-size: 60px; */
 transition: .7s;
 }
 .cover-sec:hover h1{
@@ -451,4 +451,30 @@ border-bottom: 2px solid lightgray;
     .mel-concept-sec-item-img{
         padding: 240px;
     }
+    }
+
+    @media (max-width: 1200px){
+        h1{
+            font-size: 30px;
+        }
+        .mel-concept-sec-item h1{
+            font-size: 138px;
+        }
+        .mel-concept-sec-item .offset-1{
+            margin-left: 0px;
+        }
+        .nav-item {
+            margin-left: 0px;
+        }
+        .footer p{
+            font-size: 16px;
+        }
+        .mel-concept-sec-item-img {
+            padding: 149px;
+        }
+        strong ,#mel {
+            position: relative;
+            bottom: 52px;
+        }
+      
     }

@@ -12,7 +12,6 @@
       document.body.scrollTop > 80 ||
       document.documentElement.scrollTop > 80
     ) {
-      document.getElementById("nav").style.padding = "14px 10px";
       document.getElementById("nav").style.background = "whitesmoke";
       document.getElementById("nav").style.color = "#333";
       document.getElementById("robbins").style.color = "#333";
@@ -26,7 +25,6 @@
 
   
     } else {
-      document.getElementById("nav").style.padding = "20px 10px";
       document.getElementById("nav").style.background = "black";
       document.getElementById("robbins").style.color = "whitesmoke";
       document.getElementById("mel").style.color = "whitesmoke";
