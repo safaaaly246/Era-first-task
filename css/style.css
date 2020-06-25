@@ -377,7 +377,9 @@ bottom: 500px;
 color: #fff;
 border-bottom: 2px solid lightgray;
 }
-
+.footer p{
+    font-size: 18px;
+}
 .footer-policy{
     color: #fff;
     padding: 60px 0 20px 0;
@@ -454,7 +456,7 @@ border-bottom: 2px solid lightgray;
     }
 
     @media (max-width: 1200px){
-        h1{
+        h1,h2,h3,h4{
             font-size: 30px;
         }
         .mel-concept-sec-item h1{
@@ -470,11 +472,34 @@ border-bottom: 2px solid lightgray;
             font-size: 16px;
         }
         .mel-concept-sec-item-img {
-            padding: 149px;
+            padding: 162px;
         }
         strong ,#mel {
             position: relative;
             bottom: 52px;
         }
-      
+        .mel-concept-sec-item h2{
+            width: 100%;
+            font-size: 30px;
+            padding-left: 40px;
+        }
+        .mel-concept-sec-item p{
+            width: 100%;
+            margin-left: 0;
+        }
+        .navbar-brand{
+display: none;
+        }
+        p{
+            font-size: 20px;
+        }
+        .header-sec-contain ul li{
+            text-decoration: none;
+        text-transform: capitalize;
+        font-size: 20px;
+        margin: 100px 0;
+        }
+        .mel-concept-sec-item h2{
+            font-size: 30px;
+        }
     }
